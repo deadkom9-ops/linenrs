@@ -1,0 +1,6 @@
+Tambahkan/cek di application/config/config.php:
+
+$config['base_url'] = 'http://localhost/linenrs/';
+$config['encryption_key'] = 'ganti_dengan_string_random_panjang';
+$config['sess_driver'] = 'files';
+$config['sess_save_path'] = sys_get_temp_dir();  // atau application/cache/sessions
